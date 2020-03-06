@@ -4,7 +4,7 @@ Integration guide to list products on a webpage using React and Commerce.js SDK 
 
 [Live Demo](https://flamboyant-visvesvaraya-243cf6.netlify.com/)
 
-![](img/1.png)
+![](src/img/1.png)
 
 ## Overview
 
@@ -37,7 +37,7 @@ To follow along you need to have some knowledge in
 3- Click on **Setup**, then **Developer** and get your **public key** to use in the app you're going to develop.
 4- Create a React app and set the initial files up.
 
-![](img/2.png)
+![](src/img/2.png)
 
 ### Installing Commerce.js
 

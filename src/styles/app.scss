@@ -1,0 +1,69 @@
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.products {
+  font-family: sans-serif;
+  color: gray;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.card {
+  border: 1px solid gray;
+  width: 500px;
+  max-height: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 3px;
+  text-align: center;
+
+  &__image {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  &__name,
+  &__description,
+  &__price {
+    color: gray;
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin-bottom: .5rem;
+  }
+
+  &__name {
+    font-size: 1.5rem;
+  }
+  
+  &__description {
+    font-size: 1.2rem;
+  }
+  
+  &__price {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  &__button {
+    padding: 1rem 2rem;
+    background-color: transparent;
+    color: gray;
+    border-radius: 3px;
+    border: 2px solid gray;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all .3s;
+    cursor: pointer;
+
+    &:hover {
+      background-color: gray;
+      color: white;
+    }
+  }
+}
