@@ -2,8 +2,6 @@
 
 Integration guide to list products on a webpage using React and Commerce.js SDK V2.
 
-Indicate which version of Commerce.js SDK/CDN is used: v1 or v2
-
 [Live Demo](https://flamboyant-visvesvaraya-243cf6.netlify.com/)
 
 ![](img/1.png)
